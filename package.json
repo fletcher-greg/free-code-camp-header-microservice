@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
+  "homepage": "https://fletcher-greg.github.io/free-code-camp-header-microservice/index.html",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "gh-pages": "^2.1.1"
   },
   "engines": {
     "node": "8.x"

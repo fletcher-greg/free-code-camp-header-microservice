@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "gh-pages": "^2.1.1"
   },
   "engines": {
